@@ -1,0 +1,70 @@
+/* Common styles for SCVTHS Computer Science Website */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Tektur:wght@400..900&display=swap');
+
+
+.roboto-slab-a {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.6;
+}
+.nav {
+    background-color: #002147;
+    padding: 10px;
+}
+.nav-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav a {
+    color: #cccccc;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+}
+.nav a:hover {
+    color: white;
+}
+.logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    cursor: pointer;
+}
+.content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+h1, h2, h3 {
+    color: #002147;
+    font-family: 'Roboto Slab', serif;
+}
+h1 {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+h2 {
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+p {
+    font-size: 16px;
+}
+footer {
+    background-color: #002147;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+    font-family: 'Roboto Slab', serif;
+}
